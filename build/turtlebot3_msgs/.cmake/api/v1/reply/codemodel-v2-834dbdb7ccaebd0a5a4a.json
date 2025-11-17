@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c9720560a158558032d0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "turtlebot3_msgs__py",
+					"jsonFile" : "directory-turtlebot3_msgs__py-da9293573628522dcfe3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/masters/turtlebot3_ws/build/turtlebot3_msgs/turtlebot3_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "turtlebot3_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_turtlebot3_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_turtlebot3_msgs_egg-649d895829424a5fef84.json",
+					"name" : "ament_cmake_python_build_turtlebot3_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_turtlebot3_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_turtlebot3_msgs-512649db10d0acb1f02a.json",
+					"name" : "ament_cmake_python_symlink_turtlebot3_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_msgs-b81360c9ec86507ab184.json",
+					"name" : "turtlebot3_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_msgs__cpp-36cadcfbaea07a1ec213.json",
+					"name" : "turtlebot3_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "turtlebot3_msgs__py::@8d3049d8a8d34d6612fe",
+					"jsonFile" : "target-turtlebot3_msgs__py-bde96cce79ec01a8bf08.json",
+					"name" : "turtlebot3_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_msgs__rosidl_generator_c-159eb5cbea90ebe58371.json",
+					"name" : "turtlebot3_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_msgs__rosidl_generator_py-8c6a04f7d03c6347b415.json",
+					"name" : "turtlebot3_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_msgs__rosidl_typesupport_c-f19d6a9ee5f64b7bd758.json",
+					"name" : "turtlebot3_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_msgs__rosidl_typesupport_c__pyext-45d038e30a9361e08d5a.json",
+					"name" : "turtlebot3_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_msgs__rosidl_typesupport_cpp-7f8d9ba2023c9e35b961.json",
+					"name" : "turtlebot3_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_msgs__rosidl_typesupport_fastrtps_c-3d3af326f4d491fa0801.json",
+					"name" : "turtlebot3_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext-6ef45be97e377c3fcff2.json",
+					"name" : "turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp-a08d2a656b7b3534e9c5.json",
+					"name" : "turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_msgs__rosidl_typesupport_introspection_c-ae880ac5a9cbf8a3c82e.json",
+					"name" : "turtlebot3_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext-30e5fc57932b2a74281f.json",
+					"name" : "turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_msgs__rosidl_typesupport_introspection_cpp-d048eb9caee5d456121f.json",
+					"name" : "turtlebot3_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_msgs_uninstall-8c673a22ed81ac9bbab1.json",
+					"name" : "turtlebot3_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ef977b7629bc08e04570.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/masters/turtlebot3_ws/build/turtlebot3_msgs",
+		"source" : "/home/masters/turtlebot3_ws/src/turtlebot3_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

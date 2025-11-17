@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c6163728a9a7af37237f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "dynamixel_sdk_custom_interfaces__py",
+					"jsonFile" : "directory-dynamixel_sdk_custom_interfaces__py-d0a09d4ec0c51a3fa487.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/masters/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "dynamixel_sdk_custom_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg-a2f0461e8edd65623db0.json",
+					"name" : "ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces-a9e6e29a156ce29d9998.json",
+					"name" : "ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_sdk_custom_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_sdk_custom_interfaces-bbd69396485832e4f93b.json",
+					"name" : "dynamixel_sdk_custom_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_sdk_custom_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_sdk_custom_interfaces__cpp-1d4dcc046914e4d86c5f.json",
+					"name" : "dynamixel_sdk_custom_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "dynamixel_sdk_custom_interfaces__py::@5c3fb1e61178127079ca",
+					"jsonFile" : "target-dynamixel_sdk_custom_interfaces__py-07ebfb06da85496077ec.json",
+					"name" : "dynamixel_sdk_custom_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_sdk_custom_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_sdk_custom_interfaces__rosidl_generator_c-1783aaeddc2585896ad4.json",
+					"name" : "dynamixel_sdk_custom_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_sdk_custom_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_sdk_custom_interfaces__rosidl_generator_py-4d5678942810ef7292ad.json",
+					"name" : "dynamixel_sdk_custom_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_sdk_custom_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_sdk_custom_interfaces__rosidl_typesupport_c-3689b3ebc0458f117b1f.json",
+					"name" : "dynamixel_sdk_custom_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext-564568de8febd68a33ff.json",
+					"name" : "dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp-fbc361d518a950ba6c96.json",
+					"name" : "dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c-5d51cc0dfb3aa58a6367.json",
+					"name" : "dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext-3590eb055ba6f5289c17.json",
+					"name" : "dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp-e6745277386a05a8c9ce.json",
+					"name" : "dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c-dfad13b6e0b3ee90e10f.json",
+					"name" : "dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext-1eb35fa92169c16ce520.json",
+					"name" : "dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp-b213cf06edc88d945304.json",
+					"name" : "dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_sdk_custom_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_sdk_custom_interfaces_uninstall-8c0c419f60bbca479348.json",
+					"name" : "dynamixel_sdk_custom_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8947ea9c74627e247591.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/masters/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces",
+		"source" : "/home/masters/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
