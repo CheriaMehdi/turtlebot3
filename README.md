@@ -62,9 +62,8 @@
         * [3.5.1. Robot Pose Logging Using TF](#351-Robot-Pose-Logging-Using-TF)
         * [3.5.2. Trajectory Projection onto the SLAM Map ](#352-Trajectory-Projection-onto-the-SLAM-Map)
         * [ 3.5.3 Map Scaling for Higher Precision](#353-Map-Scaling-for-Higher-Precision)
-        * [#354 Road Extraction and Binary Map Refinement ](#354-Road-Extraction-and Binary-Map-Refinement)
-
-    *[3.6. Navigation Using the Generated Road Map](#36-Navigation-Using-the-Generated-Road Map)
+        * [ 3.5.4 Road Extraction and Binary Map Refinement ](#354-Road-Extraction-and Binary-Map-Refinement)
+    * [3.6. Navigation Using the Generated Road Map](#36-Navigation-Using-the-Generated-Road Map)
 * [4. Results](#4-results)
     * [4.1. Camera calibration](#41-camera-calibration)
     * [4.2. lanedetection](#42-lane-detection)
@@ -93,12 +92,12 @@ Core Navigation and Perception
 The ground robot employed in this research is the [Turtlebot 3 (TB3)](https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/), 
 
 
-![image.png](attachment:image.png)
+![image.png](image1.png)
 
 the circuit we are using is the **autoRace circuit**.
 
 
-![image-2.png](attachment:image-2.png)
+![image-2.png](image2.png)
 
 
 The AutoRace circuit incorporates a variety of distinctive features, including straights, curves, turns, and tunnels. These elements collectively provide a platform that enables us to accurately simulate **real-world conditions** for experimental purposes.
@@ -593,10 +592,6 @@ The output is a high-resolution map image:
 
 * `aa.png`
 
-Perfect, this is a **conceptual correction**, not a code change 👍
-Here is the **clean, corrected version** of that part, rewritten to **match exactly your real pipeline** and terminology.
-
-You can **replace your section with this text directly**.
 
 ---
 
