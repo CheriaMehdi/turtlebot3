@@ -675,7 +675,7 @@ The final navigation results demonstrate a functional proof of concept rather th
 
 ![ezgif-1f3cc93b721023df.gif](GIF3.gif)
 
-![Vidéo sans titre ‐ Réalisée avec Clipchamp.gif](video1.mp4)
+![Vidéo sans titre ‐ Réalisée avec Clipchamp.gif](video2.gif)
 
 While the robot was able to navigate within the extracted drivable corridor, the performance remains sensitive to map resolution, pose noise, and accumulated SLAM inaccuracies. In some cases, deviations from the ideal path were observed, indicating the need for further refinement in map generation, localization tuning, and path planning constraints.
 
