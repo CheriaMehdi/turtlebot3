@@ -120,7 +120,7 @@ This section outlines the theoretical foundation and methodologies used in this 
 
 ### 2.1. Image Acquisition
 
-![image-3.png](attachment:image-3.png)
+![image-3.png](image3.png)
 
 Visual data acquisition is the initial step, involving the capture of images or video frames using an electronic sensor, such as a camera. In this project, we employ a fish-eye camera, which is defined by its wide-angle lens. This lens projects a near-hemispherical view onto the sensor, resulting in a significantly distorted, panoramic image.
 
@@ -424,7 +424,7 @@ Find The IP Address with this command
 $ ifconfig
 ```
 
-![image-4.png](attachment:image-4.png)
+![image-4.png](image4.png)
 
 
 ### 3.3. Image Acquisition and Camera Calibration
@@ -449,11 +449,11 @@ $ ros2 run camera_calibration cameracalibrator \
   ```
   When a checkerboard is detected, each intersection is connected. Modify the position of the checkerboard until the green bar on the right is filled to activate the button.
 
-  ![image-5.png](attachment:image-5.png)
+  ![image-5.png](image5.png)
 
   After the calibration is done, the GUI will give the option to calibrate and save the parameters
 
-  ![image-6.png](attachment:image-6.png)
+  ![image-6.png](image6.png)
 
   After a successful calibration, we save the parameters and then copy and paste the data from ost.yaml (camera calibration information) to turtlebot3_autorace_2020/turtlebot3_autorace_camera/calibration/intrinsic_calibration/camerav2_320x240_30fps.yaml
 #### 3.3.2. Extrinsic Calibration
@@ -471,7 +471,7 @@ The Next step is to run rqt and try to configure the parameters
 ```bash
 $ rqt
 ```
-![image-7.png](attachment:image-7.png)
+![image-7.png](image7.png)
 
 ### 3.4. Lane Detection
 
@@ -492,11 +492,11 @@ $ roslaunch turtlebot3_autorace_camera extrinsic_camera_calibration.launch
 $ roslaunch turtlebot3_autorace_detect detect_lane.launch mode:=calibration
 ```
 4. Select three topics in rqt at each image view: /detect/image_yellow_lane_marker/compressed, /detect/image_lane/compressed, /detect/image_white_lane_marker/compressed.
-![image-8.png](attachment:image-8.png) ![image-9.png](attachment:image-9.png)
+![image-8.png](image8.png) ![image-9.png](image9.png)
 
 we must calibrate the parameters, as discussed in the methodology section
 
-![image-10.png](attachment:image-10.png)
+![image-10.png](image10.png)
 
 To optimize lane detection in variable lighting conditions, we focused our calibration efforts within the circuit's tunnel (the area of lowest illumination). By successfully detecting lanes in this least-lit environment, we ensured the parameters were robust enough to perform reliably under brighter, sufficient light (outside the tunnel). Once satisfied with the performance, the finalized parameters were saved to turtlebot3_autorace_detect/param/lane/.
 
@@ -644,7 +644,7 @@ The camera calibration process successfully estimated the intrinsic and extrinsi
 
 The resulting bird’s-eye view representation provided a geometrically consistent top-down projection of the track, which is essential for lane detection and trajectory estimation.
 
-![image-11.png](attachment:image-11.png)
+![image-11.png](image11.png)
 
 ### 4.2. Lane Detection
 
@@ -652,7 +652,7 @@ The lane detection module demonstrated robust performance across varying illumin
 
 Polynomial fitting of both yellow and white lane boundaries was consistently achieved, providing smooth and continuous lane models suitable for control.
 
-![image-12.png](attachment:image-12.png)
+![image-12.png](image12.png)
 
 ### 4.3. TB3 Autonumus Lane Following 
 
@@ -660,7 +660,7 @@ The integrated system successfully demonstrates the full cycle: The robot mainta
 
 This result validates the closed-loop interaction between vision-based perception and motion control.
 
-![ezgif-23b89f4e84a28a61.gif](attachment:ezgif-23b89f4e84a28a61.gif)
+![ezgif-23b89f4e84a28a61.gif](GIF1.gif)
 
 ### 4.4. SLAM and Autonomous Navigation
 LiDAR-based SLAM was used not only to generate a global occupancy grid map, but also as the reference framework for the entire navigation pipeline. While the robot explored the track, Cartographer simultaneously estimated its pose and constructed a 2D map in the `map` frame, clearly representing track borders and obstacles.
@@ -668,14 +668,14 @@ LiDAR-based SLAM was used not only to generate a global occupancy grid map, but 
 During this exploration phase, a custom pose logging mechanism recorded the robot’s position and orientation in the map frame. The logged trajectory was then post-processed and projected onto the SLAM map, allowing the driven road to be explicitly reconstructed. Through a sequence of map processing steps—trajectory drawing, scaling, cropping, and road extraction—the original SLAM map was transformed into a road-focused navigation map.
 
 This approach effectively combines SLAM-based mapping with trajectory learning, enabling the robot to reuse its demonstrated path as a structured navigable corridor.
-![ezgif-205bdcbb03f7c65b.gif](attachment:ezgif-205bdcbb03f7c65b.gif)
+![ezgif-205bdcbb03f7c65b.gif](GIF2.gif)
 
 ### 4.5. Pose estimation and Navigation
 The final navigation results demonstrate a functional proof of concept rather than a fully optimized system. Pose estimation based on TF transformations provided sufficiently accurate localization to allow the robot to follow the learned road map and reach user-defined goal positions.
 
-![ezgif-1f3cc93b721023df.gif](attachment:ezgif-1f3cc93b721023df.gif)
+![ezgif-1f3cc93b721023df.gif](GIF3.gif)
 
-![Vidéo sans titre ‐ Réalisée avec Clipchamp.gif](<attachment:Vidéo sans titre ‐ Réalisée avec Clipchamp.gif>)
+![Vidéo sans titre ‐ Réalisée avec Clipchamp.gif](video1.mp4)
 
 While the robot was able to navigate within the extracted drivable corridor, the performance remains sensitive to map resolution, pose noise, and accumulated SLAM inaccuracies. In some cases, deviations from the ideal path were observed, indicating the need for further refinement in map generation, localization tuning, and path planning constraints.
 
