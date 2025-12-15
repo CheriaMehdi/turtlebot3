@@ -1,0 +1,26 @@
+# ROS / colcon build artifacts
+build*/
+install*/
+log/
+
+# ROS specific
+*.bag
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# C / C++
+*.o
+*.so
+
+# Misc
+*.log

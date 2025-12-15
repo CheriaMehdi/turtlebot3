@@ -1,1 +1,0 @@
-/home/masters/turtlebot3_ws/src/turtlebot3_autorace/turtlebot3_autorace_camera/launch/intrinsic_camera_calibration.launch.py

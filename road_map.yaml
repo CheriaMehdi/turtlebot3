@@ -1,0 +1,9 @@
+free_thresh: 0.196
+image: road_map.pgm
+negate: 0
+occupied_thresh: 0.65
+origin:
+- -4.8500000000000005
+- -7.25
+- 0.0
+resolution: 0.1
